@@ -1,0 +1,55 @@
+.events-schedule {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-family: 'Anton', sans-serif ;
+    text-align: center;
+    color: #fff;
+  }
+
+  p{
+    color: #fff;
+  }
+  
+  .schedule-grid {
+    display: grid;
+    gap: 20px;
+    border-bottom: 2px solid #3a4961;
+  }
+  
+  .event-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 8px;
+    border-bottom: 2px solid #3a4961;
+    max-height: fit-content;
+    padding: 5px;
+  }
+  
+  .event-date {
+    color: white;
+    font-weight: bolder;
+    min-width: 120px;
+    border-right:  2px solid #3a4961;
+    margin: 15px 0;
+    text-align: left;
+    padding-right: 10px;
+  }
+  
+  .event-time {
+    text-align: right;
+    font-weight: bolder;
+    color: #fff;
+  }
+  
+  .event-title {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 10px 0;
+    margin-left: 20px;
+    font-weight: bolder;
+    }

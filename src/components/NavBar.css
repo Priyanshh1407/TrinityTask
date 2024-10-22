@@ -1,0 +1,60 @@
+.navbar {
+    display: flex;              /* Use flexbox for layout */
+    justify-content: space-between; /* Space out left, center, and right sections */
+    align-items: center;       /* Center items vertically */
+    background-color: black;    /* Dark background color */
+    padding: 15px 20px;        /* Padding around the navbar */
+    color: white;              /* Text color */
+}
+
+/* Logo styles */
+.navbar-center .logo {
+    font-size: 24px;           /* Logo font size */
+    font-weight: bold;         /* Bold font */
+    text-decoration: none;     /* Remove underline */
+    color: white;              /* Logo color */
+    width: 50px;
+    height: 50px;
+    padding-right: 15rem;
+}
+
+/* Navigation links styles */
+.nav-links {
+    list-style-type: none;     /* Remove bullet points */
+    padding: 0;                /* Remove padding */
+    margin: 0;                 /* Remove margin */
+    display: flex;             /* Use flexbox for horizontal layout */
+}
+
+.nav-links li {
+    margin: 0 15px;           /* Space between links */
+}
+
+.nav-links a {
+    text-decoration: none;     /* Remove underline */
+    color: white;              /* Link color */
+    transition: color 0.3s;    /* Smooth color transition */
+}
+
+.nav-links a:hover {
+    color: #f0a500;           /* Change color on hover */
+}
+
+.navbar-right .user {
+    text-decoration: none;     /* Remove underline */
+    background-color: black;
+    color: white;              /* User link color */
+    font-size: 18px;          /* Font size for user link */
+}
+
+@media (max-width: 768px){
+    .navbar {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+}
